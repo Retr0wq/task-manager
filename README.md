@@ -41,3 +41,4 @@ npm run dev
 ```
 
 Access `http://localhost:5173`
+Observation: Most of the project is in crude portuguese, I don't plan on changing it bc I find it sort of funny

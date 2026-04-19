@@ -1,0 +1,6 @@
+node_modules/
+server/tasks.db
+server/.env
+client/dist/
+client/.vite/
+.DS_Store

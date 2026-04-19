@@ -1,40 +1,43 @@
 # Task Manager
 
-Gerenciador de tarefas com autenticação JWT. 
-Cada usuário possui suas próprias tarefas, isoladas por conta.
+Task manager with JWT authentication.
+Each user has their own tasks, isolated by account.
 
-## Tecnologias
+## Technologies
 
-- **Back-end:** Node.js, Express, SQLite, JWT, bcrypt
-- **Front-end:** React, TypeScript, Vite, Tailwind CSS, Axios
+* **Back-end:** Node.js, Express, SQLite, JWT, bcrypt
+* **Front-end:** React, TypeScript, Vite, Tailwind CSS, Axios
 
-## Funcionalidades
+## Features
 
-- Cadastro e login com senha criptografada
-- Autenticação via JWT
-- CRUD completo de tarefas
-- Rotas protegidas no front-end
+* User registration and login with encrypted password
+* JWT-based authentication
+* Full CRUD for tasks
+* Protected routes on the front-end
 
-## Como rodar localmente
+## How to run locally
 
 ### Back-end
+
 ```bash
 cd server
 npm install
 npm run dev
 ```
 
-Crie um arquivo `.env` em `server/` com:
+Create a `.env` file in `server/` with:
+
 ```
 PORT= 6767
 JWT_SECRET= chave1324
 ```
 
 ### Front-end
+
 ```bash
 cd client
 npm install
 npm run dev
 ```
 
-Acesse `http://localhost:5173`
+Access `http://localhost:5173`

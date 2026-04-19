@@ -9,7 +9,6 @@ body {
     color: #00ff99;
 }
 
-/* Efeito de scanlines */
 body::after {
     content: '';
     position: fixed;
@@ -28,7 +27,6 @@ body::after {
     z-index: 9999;
 }
 
-/* Efeito glitch no texto */
 @keyframes glitch {
     0% { text-shadow: 2px 0 #00ff99, -2px 0 #ff0044; }
     25% { text-shadow: -2px 0 #00ff99, 2px 0 #ff0044; }
@@ -41,7 +39,6 @@ body::after {
     animation: glitch 3s infinite;
 }
 
-/* Borda pulsando */
 @keyframes borderPulse {
     0% { border-color: #00ff99; box-shadow: 0 0 5px #00ff99; }
     50% { border-color: #00ccff; box-shadow: 0 0 20px #00ccff; }
@@ -52,7 +49,6 @@ body::after {
     animation: borderPulse 2s infinite;
 }
 
-/* Cursor piscando */
 @keyframes blink {
     0%, 100% { opacity: 1; }
     50% { opacity: 0; }

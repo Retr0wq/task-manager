@@ -1,7 +1,7 @@
 # Task Manager
 
 Task manager with JWT authentication.
-Each user has their own tasks, isolated by account..
+Each user has their own tasks, isolated by account.
 
 ## Technologies
 
